@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background:url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
 }
 header {
     background-color: hsl(180, 100%, 50%);
@@ -13,7 +13,7 @@ button {
     background-color: #FF790E;
 }
 footer {
-    background-color: #09A7A1;
+    background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
     color: white;
     padding: 0.5em;
 }
@@ -34,3 +34,59 @@ nav {
     background-color: hsl(180, 80%, 25%)
 
 }
+.div1{
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+      90deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );
+}
+.ball {
+    width: 40px;
+    height: 40px;
+    margin: 50 auto;
+    position: fixed;
+    background: linear-gradient(
+      35deg,
+      #60adad,
+      #ac3838
+    );
+    border-radius: 50%;
+    
+}
+#ball1 {
+    left: 20%;
+}
+#ball2 {
+    left: 65%;
+    transform: scale(3);
+
+}
+
+#ball1:hover{
+    transform: scale(1.1);
+}
+
+#hola{
+    transform: skewX(24deg);
+    transform: skewY(-10deg);
+}
+.center {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 10px 0px 0px blue;
+  }
