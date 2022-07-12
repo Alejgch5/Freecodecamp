@@ -1,0 +1,66 @@
+10/07/2022
+
+--Crea un gradiente lineal de CSS gradual
+background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
+
+--Utiliza un degradado lineal CSS para crear un elemento rayado
+div{
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );
+  }
+
+--Crea textura agregando un patrón sutil como imagen de fondo
+body {
+    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png)
+
+  }
+
+--Utiliza la propiedad de escala de transformación CSS para cambiar el tamaño de un elemento
+p {
+  transform: scale(2);
+}
+
+--Utiliza la propiedad de escala de transformación CSS para escalar un elemento al desplazarse
+p:hover {
+  transform: scale(2.1);
+}
+
+--Utiliza la propiedad de transformación CSS skewX para inclinar un elemento a lo largo del eje X
+p {
+  transform: skewX(-32deg);
+}
+
+--Utiliza la propiedad de transformación CSS skewY para inclinar un elemento a lo largo del eje Y
+ }
+  #top {
+    background-color: red;
+    transform: skewY(-10deg);
+
+ }
+
+--CREAR LA LUNA CRECIENTE CSS
+ .center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 10px 0px 0px blue;
+  }
+
+--
+
